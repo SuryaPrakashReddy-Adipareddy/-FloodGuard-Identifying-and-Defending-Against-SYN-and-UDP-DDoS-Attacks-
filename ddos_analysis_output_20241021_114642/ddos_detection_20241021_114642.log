@@ -1,0 +1,6 @@
+2024-10-21 11:46:42,605 - INFO - Starting DDoS detection script...
+2024-10-21 11:46:42,606 - ERROR - Error during execution: load_and_preprocess_data() missing 3 required positional arguments: 'syn_test_path', 'udp_train_path', and 'udp_test_path'
+Traceback (most recent call last):
+  File "strlim.py", line 458, in main
+    train_df, test_df = load_and_preprocess_data(...)
+TypeError: load_and_preprocess_data() missing 3 required positional arguments: 'syn_test_path', 'udp_train_path', and 'udp_test_path'

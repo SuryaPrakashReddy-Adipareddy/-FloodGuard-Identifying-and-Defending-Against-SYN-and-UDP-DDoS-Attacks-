@@ -1,0 +1,17 @@
+Split data into features (X) and labels (y)
+Standardize features using StandardScaler
+Apply SMOTE to balance classes
+Reshape data for LSTM input (samples, timesteps, features)
+
+
+Initialize bidirectional LSTM with attention mechanism
+Setup Focal Loss for imbalanced learning
+Configure AdamW optimizer and learning rate scheduler
+Train model with gradient clipping
+Monitor and plot training loss
+
+Generate predictions on test set
+Create and plot confusion matrix
+Generate ROC and Precision-Recall curves
+Save trained model and evaluation metrics
+Create visualization plots for analysis
